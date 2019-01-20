@@ -1,0 +1,23 @@
+name: Pickle_TchatController
+version: 1.0-SNAPSHOT
+main: fr.eliottbovel.tchatcontroller.Tchatcontroller
+api-version: 1.13
+authors: [EliottBovel]
+description: Control the chat of one of your players.
+database: false
+
+commands:
+  tchatcontroller:
+    description: Main command of the plugin.
+    aliases: [tc, tchatcontroll, tchatcontrolle]
+    usage: Syntax error! Simply type /Tchatcontroller [Player's Name] to use.
+    permission: tchatcontroller.use
+
+permissions:
+  tchatcontroller.*:
+    description: Gives access to all TchatController commands.
+    children:
+      tchatcontroller.use: true
+  tchatcontroller.use:
+    description: Allows you to controlle other player's tchat.
+    default: false
