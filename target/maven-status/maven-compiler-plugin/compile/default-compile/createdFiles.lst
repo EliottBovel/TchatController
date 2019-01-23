@@ -1,7 +1,5 @@
-fr\eliottbovel\tchatcontroller\Command\Sub\TCSubPlayer.class
 fr\eliottbovel\tchatcontroller\Listener\PlayerChat.class
-fr\eliottbovel\tchatcontroller\Listener\PlayerDisconnect.class
-fr\eliottbovel\tchatcontroller\Command\Sub\TCSubStop.class
 fr\eliottbovel\tchatcontroller\Tchatcontroller.class
 fr\eliottbovel\tchatcontroller\Command\TCCommand.class
+fr\eliottbovel\tchatcontroller\Listener\PlayerDisconnect.class
 fr\eliottbovel\tchatcontroller\Listener\PlayerCommand.class
